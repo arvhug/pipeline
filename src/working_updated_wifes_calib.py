@@ -3,9 +3,9 @@ from scipy.interpolate import splrep
 import pickle
 from astropy.io import fits as pyfits
 import scipy.interpolate
-import wifes_ephemeris
-from wifes_metadata import metadata_dir
-from wifes_metadata import __version__
+import src.wifes_ephemeris as wifes_ephemeris
+from src.wifes_metadata import metadata_dir
+from src.wifes_metadata import __version__
 
 #------------------------------------------------------------------------
 #------------------------------------------------------------------------

@@ -3,7 +3,7 @@
 import sys
 import os
 import astropy.io.fits as pyfits
-import wifes_calib
+import src.wifes_calib
 import numpy
 
 class MyList(object):

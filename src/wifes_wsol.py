@@ -6,14 +6,14 @@ import pylab
 import pickle
 import scipy.interpolate
 import scipy.optimize
-from wifes_metadata import metadata_dir
+from src.wifes_metadata import metadata_dir
 import mpfit
 import optical_model as om
 import math
 import mpfit
 import multiprocessing
 from itertools import cycle
-from wifes_metadata import __version__
+from src.wifes_metadata import __version__
 import scipy.optimize as op
 # Fred's upadate (wsol)
 import os

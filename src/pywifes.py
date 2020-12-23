@@ -5,8 +5,8 @@ import pickle
 import scipy.interpolate
 import multiprocessing
 import subprocess
-from wifes_metadata import metadata_dir
-from wifes_imtrans import blkrep, blkavg, transform_data, detransform_data
+from src.wifes_metadata import metadata_dir
+from src.wifes_imtrans import blkrep, blkavg, transform_data, detransform_data
 import gc
 import mpfit
 import sys
@@ -18,7 +18,7 @@ import pdb
 import matplotlib.pyplot as plt
 
 # CODE VERSION
-from wifes_metadata import __version__
+from src.wifes_metadata import __version__
 
 #------------------------------------------------------------------------
 # NEED TO OPEN / ACCESS WIFES METADATA FILE!!
